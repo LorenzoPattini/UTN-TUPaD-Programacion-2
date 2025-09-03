@@ -1,0 +1,89 @@
+package tp1_introducci�n_a_java;
+public class HolaMundo {
+    public static void main(String[] args) {
+        System.out.println("�Hola, Java!");
+    }
+}
+package tp1_introducci�n_a_java;
+public class Actividad3 {
+    public static void main(String[] args) {
+        String nombre = "Lorenzo";
+        int edad = 25;
+        double altura = 1.79;
+        boolean estudiante = true;
+        System.out.println("Mi nombre es " + nombre + ", tengo " + edad + " a�os y mido " + altura + ". Soy estudiante en TUPAD UTN: " + estudiante);
+    }
+}
+
+package tp1_introducci�n_a_java;
+import java.util.Scanner;
+public class Actividad4 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Escriba su nombre: "); String nombre = input.nextLine();
+        System.out.println("Ingrese su edad: "); int edad = Integer.parseInt(input.nextLine());
+        System.out.println("Hola " + nombre + ", tienes " + edad + " a�os correcto?");
+    }
+}
+
+package tp1_introducci�n_a_java;
+import java.util.Scanner;
+public class Actividad5 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Ingrese n�mero: "); int numero1 = Integer.parseInt(input.nextLine());
+        System.out.println("Ingrese otro n�mero: "); int numero2 = Integer.parseInt(input.nextLine());
+        int suma = numero1 + numero2;
+        int resta = numero1 - numero2;
+        int multiplicacion = numero1 * numero2;
+        double division = (double) numero1 / numero2;
+        System.out.println(numero1 + " + " + numero2 + " = " + suma);
+        System.out.println(numero1 + " - " + numero2 + " = " + resta);
+        System.out.println(numero1 + " * " + numero2 + " = " + multiplicacion);
+        System.out.println(numero1 + " / " + numero2 + " = " + division);
+    }
+}
+
+package tp1_introducci�n_a_java;
+public class Actividad6 {
+    public static void main(String[] args) {
+        System.out.println("Nombre: Juan Perez\nEdad: 30 a�os\nDireccion: \"Calle Falsa 123\"");
+    }
+}
+
+package tp1_introducci�n_a_java;
+import java.util.Scanner;
+public class Actividad8 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        System.out.println("Ingrese un n�mero: "); int numero1 = Integer.parseInt(input.nextLine());
+        System.out.println("Ingrese otro n�mero: "); int numero2 = Integer.parseInt(input.nextLine());
+         
+         int divisionInt = numero1 / numero2;
+         double divisionDouble = (double) numero1 / numero2;
+         
+         System.out.println("Divisi�n con valores tipo Int: " + numero1 + " / " + numero2 + " = " + divisionInt);
+         System.out.println("Divisi�n con valores tipo Double: " + numero1 + " / " + numero2 + " = " + divisionDouble);
+    }
+}
+
+package tp1_introducci�n_a_java;
+import java.util.Scanner;
+public class Actividad9 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Ingresa tu nombre: ");
+        String nombre = scanner.next(); // Soluci�n
+        System.out.println("Hola, " + nombre);
+    }
+}
+package tp1_introducci�n_a_java;
+public class Actividad10 {
+    public static void main(String[] args) {
+        int a = 5;
+        int b = 2;
+        int resultado = a / b;
+        System.out.println("Resultado: " + resultado);
+    }
+}
