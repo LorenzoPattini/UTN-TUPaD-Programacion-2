@@ -28,10 +28,11 @@ db.password=tu_password
 
 
 🚀 Ejecución
+
 Compilar:
 bash
 javac -cp ".:mysql-connector-java.jar" main/Main.java
 
- Ejecutar:
+Ejecutar:
 bash
 java -cp ".:mysql-connector-java.jar" main.Main
