@@ -36,3 +36,6 @@ javac -cp ".:mysql-connector-java.jar" main/Main.java
 Ejecutar:
 bash
 java -cp ".:mysql-connector-java.jar" main.Main
+
+
+Enlace de Video: 
