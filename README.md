@@ -40,3 +40,34 @@ mysql-connector-java-8.0.x.jar
 
 Configuración de base de datos en db.properties
 
+🔧 Compilación y Ejecución
+Configuración de Conexión
+
+properties
+db.url=jdbc:mysql://localhost:3306/biblioteca_tfi?useSSL=false&serverTimezone=UTC
+db.user=root
+db.password=Luke990
+
+bash
+# Navegar al directorio del proyecto
+cd /ruta/del/proyecto
+
+# Compilar todos los archivos .java
+javac -cp ".:mysql-connector-java-8.0.xx.jar" main/Main.java
+
+bash
+java -cp ".:mysql-connector-java-8.0.xx.jar" main.Main
+
+👤 Credenciales de Prueba y Flujo de Uso
+Datos de Prueba Incluidos
+Libros disponibles:
+
+"Cien años de soledad" - Gabriel García Márquez
+
+"El Principito" - Antoine de Saint-Exupéry
+
+"Fundación" - Isaac Asimov
+
+"Rayuela" - Julio Cortázar
+
+"1984" - George Orwell
