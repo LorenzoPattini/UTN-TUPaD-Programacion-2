@@ -3,6 +3,7 @@
 Sistema para gestionar libros y sus fichas bibliográficas con relación 1→1. Cada libro puede tener una única ficha con información especializada (ISBN, clasificación, etc.).
 
 ⚙️ Requisitos
+
 Java: JDK 11+
 
 MySQL: 8.0+
